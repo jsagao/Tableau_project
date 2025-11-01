@@ -1,0 +1,38 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+.venv/
+env/
+venv/
+.pytype/
+.mypy_cache/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Notebooks
+.notebooks_cache/
+
+# Tableau (cache & backups)
+*.twb~
+*.twbx~
+*.hyper
+*.tds
+*.tde
+*.log
+
+# Misc
+*.bak
+*.tmp
